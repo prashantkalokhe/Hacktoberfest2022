@@ -3,7 +3,7 @@
 #Hacktoberfest #Hacktoberfest2022 #Hacktoberfest2021
 
 What is HacktoberFest🏵️?
-Hacktoberfest, in its 8th year, is a month-long celebration of open source software run by DigitalOcean. During the month of October, you are invited to join open-source software enthusiasts, beginners, and the developer community by contributing to open-source projects.
+Hacktoberfest, in its 9th year, is a month-long celebration of open source software run by DigitalOcean. During the month of October, you are invited to join open-source software enthusiasts, beginners, and the developer community by contributing to open-source projects.
 
 Rewards🥇
 For beginners this is the great opportunity to dive in the pool of open source.
@@ -53,7 +53,7 @@ Hacktoberfest is a month-long celebration of open source software sponsored by D
 
 What is HacktoberFest🏵️?
 
-Hacktoberfest, in its 8th year, is a month-long celebration of open source software run by DigitalOcean. During the month of October, you are invited to join open-source software enthusiasts, beginners, and the developer community by contributing to open-source projects.
+Hacktoberfest, in its 9th year, is a month-long celebration of open source software run by DigitalOcean. During the month of October, you are invited to join open-source software enthusiasts, beginners, and the developer community by contributing to open-source projects.
 
 Rewards🥇
 
