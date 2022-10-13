@@ -7,7 +7,7 @@ public class Valid_Squares {
         System.out.println(mySqrt(40));
     }
     public static int mySqrt(int x) {
-        //NOT MY CODE BUT LEARNED FROM IT!!!
+        
 
         if(x == 0 || x == 1) return x;
 
@@ -40,3 +40,4 @@ public class Valid_Squares {
     }
 }
 
+//Written by PRANIT RATHOD
