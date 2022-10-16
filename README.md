@@ -1,4 +1,5 @@
 # HacktoberFest2022
+Follow me on GitHub, Connect on Linkedin
 
 ----------------------------------------------------------------------
 
