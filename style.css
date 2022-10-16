@@ -1,0 +1,177 @@
+.rnInner {
+    width: 100%;
+    position: absolute;
+    top: -10%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    transform-style: preserve-3d;
+    transition: transform 6s ease;
+    transform-origin: -120% top;
+}
+
+.rnUnit {
+    width: 19%;
+    height: 120vh;
+    background: repeating-linear-gradient(to left, hsl(0, 80%, 50%) 4vw, hsl(0, 80%, 30%) 8vw, hsl(0, 80%, 70%) 10vw);
+    background-size: 100% 100%;
+    display: inline-block;
+    transform-origin: 0 0%;
+    transform: rotate(3deg);
+    -webkit-animation: rnUnit 2s ease infinite;
+    animation: rnUnit 2s ease infinite;
+}
+
+@-webkit-keyframes rnUnit {
+    50% {
+        transform: rotate(-3deg);
+    }
+}
+
+@keyframes rnUnit {
+    50% {
+        transform: rotate(-3deg);
+    }
+}
+
+.rnUnit:nth-child(1) {
+    -webkit-animation-delay: -0.1s;
+    animation-delay: -0.1s;
+}
+
+.rnUnit:nth-child(2) {
+    -webkit-animation-delay: -0.2s;
+    animation-delay: -0.2s;
+}
+
+.rnUnit:nth-child(3) {
+    -webkit-animation-delay: -0.3s;
+    animation-delay: -0.3s;
+}
+
+.rnUnit:nth-child(4) {
+    -webkit-animation-delay: -0.4s;
+    animation-delay: -0.4s;
+}
+
+.rnUnit:nth-child(5) {
+    -webkit-animation-delay: -0.5s;
+    animation-delay: -0.5s;
+}
+
+.rnUnit:nth-child(6) {
+    -webkit-animation-delay: -0.6s;
+    animation-delay: -0.6s;
+}
+
+.rnUnit:nth-child(7) {
+    -webkit-animation-delay: -0.7s;
+    animation-delay: -0.7s;
+}
+
+.rnUnit:nth-child(8) {
+    -webkit-animation-delay: -0.8s;
+    animation-delay: -0.8s;
+}
+
+.rnUnit:nth-child(9) {
+    -webkit-animation-delay: -0.9s;
+    animation-delay: -0.9s;
+}
+
+.rnUnit:nth-child(10) {
+    -webkit-animation-delay: -1s;
+    animation-delay: -1s;
+}
+
+body {
+    background: black;
+}
+
+.curtain {
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+}
+
+.curtain__wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.curtain__wrapper input[type=checkbox] {
+    position: absolute;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    opacity: 0;
+    top: 0;
+    left: 0;
+}
+
+.curtain__wrapper input[type=checkbox]:checked~div.curtain__panel--left {
+    transform: translateX(0);
+}
+
+.curtain__wrapper input[type=checkbox]:checked~div.curtain__panel--right {
+    transform: translateX(0);
+}
+
+.curtain__panel {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    float: left;
+    position: relative;
+    width: 50%;
+    height: 100vh;
+    transition: all 1s ease-out;
+    z-index: 2;
+}
+
+.curtain__panel--left {
+    justify-content: flex-end;
+    transform: translateX(-100%);
+}
+
+.curtain__panel--right {
+    justify-content: flex-start;
+    transform: translateX(100%);
+}
+
+.curtain__content {
+    align-items: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    padding: 1rem 0;
+    position: absolute;
+    text-align: center;
+    background: url("https://wallpaper.dog/large/525966.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    z-index: 1;
+    width: 100%;
+}
+
+#overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: black;
+    opacity: 80%;
+    z-index: -1;
+}
+#confetti {
+    height: 100%;
+    left: 0px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: -1;
+}
