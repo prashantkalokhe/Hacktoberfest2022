@@ -1,5 +1,9 @@
 // Heap Sort in C
-  
+/*
+Heap sort is a comparison-based sorting technique based on Binary Heap data structure. It is similar to the selection sort
+where we first find the minimum element and place the minimum element at the beginning. Repeat the same process for the 
+remaining elements.
+*/
 #include <stdio.h>
   
   // Function to swap the the position of two elements
