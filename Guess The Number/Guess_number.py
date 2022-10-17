@@ -1,9 +1,9 @@
+#The random module in Python defines a series of functions for generating or manipulating random integers.
 import random
 
-randomNum=random.randint(1,100)
+randomNum=random.randint(1,100) # Numbers to be chosen from 1 to 100
 
-
-def Game():
+def Game(): # defines a function named Game
     userGuess=None
     totalGuesses=0
 
