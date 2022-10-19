@@ -44,4 +44,23 @@ For beginners this is the great opportunity to dive in the pool of open source.
 
 - No programming language boundation.
 
+**Values**
+
+- Everyone is Welcome for Hactoberfest2022.
+
+-Quality is Fun, Quality is Key.
+
+-Short term action, long term impact.
+
+**Intro to Oper Source**
+
+DigitalOcean: https://www.digitalocean.com/community/tutorial_series/an-introduction-to-open-source
+
+GitHub: https://opensource.guide/how-to-contribute/
+
+DigitalOcean: https://www.digitalocean.com/community/tutorials/what-is-open-source
+
+DigitalOcean: https://www.digitalocean.com/community/cheatsheets/how-to-use-git-a-reference-guide
+
+
 **Thank You**
