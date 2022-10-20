@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
   
-class GFG {
+class Strassen’sMatrixMultiplication {
   
   static int ROW_1 = 4,COL_1 = 4, ROW_2 = 4, COL_2 = 4;
   
